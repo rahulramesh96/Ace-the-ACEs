@@ -8,3 +8,13 @@ Enumerates all the accounts
 
 Enumerates non-admin accounts.
 `.\GenericAllUser.ps1 -d <DomainName>`
+
+# GenericAllGroup.ps1
+
+## Purpose:
+Enumerates all Active Directory groups where another user/object has GenericAll permissions. Useful in Red Teaming to find privilege escalation paths through group control.
+
+Enumerates all the accounts
+`.\GenericAllGroup.ps1 -d <DomainName> -a`
+`.\GenericAllGroup.ps1 -d <DomainName>` 
+
